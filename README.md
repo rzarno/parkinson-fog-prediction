@@ -10,7 +10,7 @@ Credit to 此般浅薄 for the initial inspiration
 
 thanks to NICHOLAS GRAY for sharing notebook "Gait Prediction" which was base for this solution
 
-The goal was to predict probablility for 3 FOG types: Turn, Walking and StartHesitation based on values from 3 motion sensors weared by patients with Parkinsons disease on their back. Instead of motion sensor recordings there were also datasets with metadata related to information about patients like age, sex, being on medicines and many other.
+The goal was to predict probablility for 3 FOG types: Turn, Walking and StartHesitation based on values from 3 motion sensors worn by patients with Parkinsons disease on their back. Instead of motion sensor recordings there were also datasets with metadata related to information about patients like age, sex, being on medicines and many other.
 
 initial notebook scored 0.289 on submission evaluation in this notebook several improvements where appied, scoring 0.328 on submission evaluation
 
