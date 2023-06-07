@@ -23,3 +23,6 @@ initial notebook scored 0.289 on submission evaluation in this notebook several 
 All data included in this notebook and in these files is NOT competition data.
 
 The files are for exhibition only and they are created by the team by inserting random values of the right type, with relevant column names, to show proof of concept
+
+The Test data will be split into defog and tdcsfog, while the Train data will be split into tdcsfog, defog and notype. 
+Additionally in the data folder there will be an unlabeled folder representing the data that can be used for unsupervised learning.
