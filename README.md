@@ -14,11 +14,11 @@ The goal was to predict probablility for 3 FOG types: Turn, Walking and StartHes
 
 initial notebook scored 0.289 on submission evaluation in this notebook several improvements where appied, scoring 0.328 on submission evaluation
 
-    multiply tdcsfog values by g (9.81)
-    use second model with smaller window of 600 timesteps (initial model has window = 5K), for prdiction max val of 2 models is chosen
-    used information from notype and assign Turn=1 wherever event occured
-    cleared first and last 1300 timesteps (in chart it looks like some noise during beginning and end of recording, maybe related to sensor starting to work)
-    first 85000 values from notype data were removed (these sessions are relatively long and ususally events don't occur at the beginning), as well as different configurations of end data
+    - multiply tdcsfog values by g (9.81)
+    - use second model with smaller window of 600 timesteps (initial model has window = 5K), for prdiction max val of 2 models is chosen
+    - used information from notype and assign Turn=1 wherever event occured
+    - cleared first and last 1300 timesteps (in chart it looks like some noise during beginning and end of recording, maybe related to sensor starting to work)
+    - first 85000 values from notype data were removed (these sessions are relatively long and ususally events don't occur at the beginning), as well as different configurations of end data
 
 All data included in this notebook and in these files is NOT competition data.
 
