@@ -28,6 +28,8 @@ Initial notebook scored 0.289 on submission evaluation. As a model MultiOutputRe
 - cleared first and last 1300 timesteps (in chart it looks like some noise during beginning and end of recording, maybe related to sensor starting to work)
 - first 85000 values from notype data were removed (these sessions are relatively long and ususally events don't occur at the beginning)
 
+Competition winning solution scored 0.514025. To eavluate solution was taken average precision on predicted confidence scores separately for each of the three event classes and take the average of these three scores to get the overall score.
+
 ### Data
 
 All data included in this notebook and in these files is NOT competition data.
