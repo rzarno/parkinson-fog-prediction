@@ -1,4 +1,4 @@
-## Machine Learning parkinson desease FOG detection
+## Machine Learning parkinson desease FOG detection for Kaggle competition
 
 ### Description
 
