@@ -1,1 +1,4 @@
 tlvmc-parkinsons-freezing-gait-prediction.zip
+input/
+.idea/
+.ipynb_checkpoints/
